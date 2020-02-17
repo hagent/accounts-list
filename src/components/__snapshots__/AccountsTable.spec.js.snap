@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AccountsTable renders table 1`] = `
+<styled.div>
+  <TableSortFields
+    columns={
+      Array [
+        Object {
+          "field": "name",
+          "title": "Name",
+        },
+        Object {
+          "field": "profitLoss",
+          "title": "Profit & Loss",
+        },
+        Object {
+          "field": "accountTypeTitle",
+          "title": "Account Type",
+        },
+      ]
+    }
+    removeField={[Function]}
+    sortFields={Array []}
+    toggleField={[Function]}
+  />
+  <styled.table>
+    <thead>
+      <tr>
+        <styled.th
+          key="name"
+          onClick={[Function]}
+        >
+          Name
+           
+        </styled.th>
+        <styled.th
+          key="profitLoss"
+          onClick={[Function]}
+        >
+          Profit & Loss
+           
+        </styled.th>
+        <styled.th
+          key="accountTypeTitle"
+          onClick={[Function]}
+        >
+          Account Type
+           
+        </styled.th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        key="1"
+      >
+        <styled.td>
+          Spread bet
+        </styled.td>
+        <styled.td>
+          $
+           
+          0.23
+        </styled.td>
+        <styled.td>
+          Spread bet account
+        </styled.td>
+      </tr>
+      <tr
+        key="2"
+      >
+        <styled.td>
+          New Spread bet
+        </styled.td>
+        <styled.td>
+          $
+           
+          -679
+        </styled.td>
+        <styled.td>
+          Spread bet account
+        </styled.td>
+      </tr>
+    </tbody>
+  </styled.table>
+</styled.div>
+`;
