@@ -10,6 +10,7 @@ export default function Accounts() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
+    // in case of some dependencies, error and accounts data should be reset to null here
     getAccounts()
       .then(setAccounts)
       .catch(setError);

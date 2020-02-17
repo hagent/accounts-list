@@ -7,6 +7,7 @@ function appendAccountTypeTitle(accounts, accountTypes) {
     const accountType = accountTypes.find(x => x.id === accountTypeId);
     return accountType ? accountType.title : UNKNOWN_TYPE;
   };
+  // from perfomance perspective it's possible that mutatiion would work faster
   return accounts.map(a => ({
     ...a,
     accountTypeTitle: getAccountTypeTitle(a.accountType)

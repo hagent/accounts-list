@@ -51,6 +51,8 @@ const COLUMNS = [
   }
 ];
 
+// abstract sortable table could be extracted from the component
+// though I decided that without additional requirements it would be premature complication
 export default function AccountsTable({ accounts }) {
   const [sortFields, setSortFields] = useState([]);
 
